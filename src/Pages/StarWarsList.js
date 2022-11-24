@@ -115,7 +115,7 @@ const StarWarsList = () => {
     }
     useEffect(() => {
         getStarWarsList("init")
-    })
+    },[] )
 
 
     return (
